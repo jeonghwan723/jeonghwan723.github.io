@@ -29,7 +29,7 @@ author:
   bio              : "Postdoctoral researcher"
   location         : "Seoul, Republic of Korea"
   employer         : "Korea Institute of Science and Technology"
-  uri              : # URL
+  # uri              : # URL
   email            : "spikio19@naver.com" 
 
   # Academic websites
@@ -48,12 +48,12 @@ author:
 
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
+  # bitbucket        : # Username - Update with your username on the site
+  # codepen          : # Username
+  # dribbble         : # Username
   github           : "https://github.com/jeonghwan723"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  # kaggle           : # Username  
+  # stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   # artstation       : # Username
@@ -130,10 +130,10 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+# google_site_verification :
+# bing_site_verification   :
+# alexa_site_verification  :
+# yandex_site_verification :
 
 
 # Social Sharing
