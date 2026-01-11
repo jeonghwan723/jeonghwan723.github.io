@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+# Jeong-Hwan Kim, Ph.D.
+
 ## Research Experience
 - <b>March 2024 - present</b>: Postdoctoral Researcher<br>Center for Climate and Carbon Cycle Research, Korea Institute of Science and Technology<br>Supervisor: Dr. Daehyun Kang
 - <b>March 2023 - February 2024</b>: Postdoctoral Researcher<br>Faculty of Earth System and Environmental Science, Chonnam National University<br>Supervisor: Prof. Yoo-Geun Ham
