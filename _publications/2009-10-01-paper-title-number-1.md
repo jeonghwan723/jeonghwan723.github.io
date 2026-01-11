@@ -7,7 +7,6 @@ permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: ''
 date: 2019-03-01
 venue: 'Science'
-slidesurl: ''
 paperurl: '10.1126/science.aav4236'
 bibtexurl: ''
 citation: 'Cai, W., Wu, L., Lengaigne, M., Li, T., McGregor, S., Kug, J. S., ... & Chang, P. (2019). &quot;Pantropical climate interactions.&quot; <i>Science</i>. 363'
