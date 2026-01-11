@@ -1,5 +1,5 @@
 ---
-title: "Pantropical climate interactions.
+title: "Pantropical climate interactions
 "
 collection: publications
 category: manuscripts
