@@ -1,5 +1,5 @@
 ---
-title: "Pantropical climate interactions.<img width="468" height="20" alt="image" src="https://github.com/user-attachments/assets/f1d066bd-de69-4e07-ba9f-9ef2b8b43421" />
+title: "Pantropical climate interactions.
 "
 collection: publications
 category: manuscripts
