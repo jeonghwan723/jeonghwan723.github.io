@@ -7,7 +7,7 @@ permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2019-03-01
 venue: 'Science'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
+slidesurl: ''
 paperurl: 'https://academicpages.github.io/files/paper1.pdf'
 bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
 citation: 'Cai, W., Wu, L., Lengaigne, M., Li, T., McGregor, S., Kug, J. S., ... & Chang, P. (2019). &quot;Pantropical climate interactions.&quot; <i>Science</i>. 363'
