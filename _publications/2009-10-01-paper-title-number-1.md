@@ -4,6 +4,7 @@ title: "Pantropical climate interactions.
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
+excerpt: ''
 date: 2019-03-01
 venue: 'Science'
 paperurl: 'https://www.science.org/doi/10.1126/science.aav4236'
