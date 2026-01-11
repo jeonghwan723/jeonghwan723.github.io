@@ -1,5 +1,6 @@
 ---
-title: "Paper Title Number 1"
+title: "Pantropical climate interactions.<img width="468" height="20" alt="image" src="https://github.com/user-attachments/assets/f1d066bd-de69-4e07-ba9f-9ef2b8b43421" />
+"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
