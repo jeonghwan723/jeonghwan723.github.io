@@ -5,7 +5,6 @@ category: manuscripts
 permalink: /publication/paper001
 excerpt: 'W. Cai, L. Wu, M. Lengaigne, T. Li, S. McGregor, J. S. Kug, ... & P. Chang, Pantropical climate interactions. <i>Science</i> 363 (2019)'
 date: 2019-03-01
-venue: 'Science'
 paperurl: 'https://www.science.org/doi/10.1126/science.aav4236'
 ---
 
