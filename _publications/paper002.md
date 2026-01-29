@@ -3,11 +3,10 @@ title: "Deep learning for multi-year ENSO forecasts"
 collection: publications
 category: manuscripts
 permalink: /publication/paper002
-excerpt: ''
+excerpt: 'Y. G. <u><b>Ham, J. H. Kim</b></u>, J. J. Luo, Deep learning for multi-year ENSO forecasts. <i>Nature</i>. 573 (2019)'
 date: 2019-09-18
 venue: 'Nature'
 paperurl: 'https://www.nature.com/articles/s41586-019-1559-7'
-citation: 'Ham, Y. G., Kim, J. H., & Luo, J. J. (2019). &quot;Deep learning for multi-year ENSO forecasts.&quot; <i>Nature</i>. 573.'
 ---
 
 Variations in the El Niño/Southern Oscillation (ENSO) are associated with a wide array of regional climate extremes and ecosystem impacts. Robust, long-lead forecasts would therefore be valuable for managing policy responses. But despite decades of effort, forecasting ENSO events at lead times of more than one year remains problematic. Here we show that a statistical forecast model employing a deep-learning approach produces skilful ENSO forecasts for lead times of up to one and a half years. To circumvent the limited amount of observation data, we use transfer learning to train a convolutional neural network (CNN) first on historical simulations and subsequently on reanalysis from 1871 to 1973. During the validation period from 1984 to 2017, the all-season correlation skill of the Nino3.4 index of the CNN model is much higher than those of current state-of-the-art dynamical forecast systems. The CNN model is also better at predicting the detailed zonal distribution of sea surface temperatures, overcoming a weakness of dynamical forecast models. A heat map analysis indicates that the CNN model predicts ENSO events using physically reasonable precursors. The CNN model is thus a powerful tool for both the prediction of ENSO events and for the analysis of their associated complex mechanisms.
