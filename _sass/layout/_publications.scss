@@ -15,6 +15,14 @@
     line-height: 1.2;
   }
 
+  .archive__item-number {
+    display: inline-block;
+    min-width: 2.2em;
+    margin-right: 0.4em;
+    text-align: right;
+    color: var(--global-text-color-light);
+  }
+
   .archive__item-excerpt,
   .archive__item p {
     font-size: $type-size-5;
