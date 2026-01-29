@@ -3,7 +3,7 @@ title: "Understanding machine learning weather prediction by designing a cost-ef
 collection: publications
 category: manuscripts
 permalink: /publication/paper011
-excerpt: 'Cheon, M., <u><b>Kim, J. H.</b></u>, Choi, Y., Kang, S. Y., Lee, J. G., Ham, Y. G., Kim, J. Y., Kang, D. (2025). Understanding machine learning weather prediction by designing a cost-efficient model with knowledge-oriented modules. <i>Scientific Reports</i>. DOI: 10.1038/s41598-025-32366-3'
+excerpt: 'M. Cheon, <u><b>J. H. Kim</b></u>, Y. Choi, S. Y. Kang, J. G. Lee, Y. G. Ham, J. Y. Kim, D. Kang, Understanding machine learning weather prediction by designing a cost-efficient model with knowledge-oriented modules. <i>Scientific Reports</i> 16, 2413 (2025) DOI: 10.1038/s41598-025-32366-3'
 date: 2025-12-15
 venue: 'Scientific Reports'
 paperurl: 'https://www.nature.com/articles/s41598-025-32366-3'

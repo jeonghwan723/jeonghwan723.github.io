@@ -3,7 +3,7 @@ title: "Data-driven global ocean model resolving ocean-atmosphere coupling dynam
 collection: publications
 category: manuscripts
 permalink: /publication/paper011
-excerpt: '<u><b>Kim, J. H.</b></u>, Kang, D., Yang, Y. M., Park, J. H., Ham, Y. G. (2025). Data-driven global ocean model resolving ocean-atmosphere coupling dynamics. <i>arXiv</i>. DOI: 10.48550/arXiv.2508.10908'
+excerpt: '<u><b>J. H. Kim</b></u>, D. Kang, Y. M. Yang, J. H. Park, Y. G. Ham, Data-driven global ocean model resolving ocean-atmosphere coupling dynamics. <i>arXiv</i> (2025) DOI: 10.48550/arXiv.2508.10908'
 date: 2025-07-31
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2508.10908'

@@ -3,7 +3,7 @@ title: "Deep learning for multi-year ENSO forecasts"
 collection: publications
 category: manuscripts
 permalink: /publication/paper002
-excerpt: 'Y. G. <u><b>Ham, J. H. Kim</b></u>, J. J. Luo, Deep learning for multi-year ENSO forecasts. <i>Nature</i>. 573 (2019)'
+excerpt: 'Y. G. <u><b>Ham, J. H. Kim</b></u>, J. J. Luo, Deep learning for multi-year ENSO forecasts. <i>Nature</i> 573 (2019)'
 date: 2019-09-18
 venue: 'Nature'
 paperurl: 'https://www.nature.com/articles/s41586-019-1559-7'
