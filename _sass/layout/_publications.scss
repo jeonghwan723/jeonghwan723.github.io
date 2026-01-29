@@ -3,12 +3,17 @@
    ========================================================================== */
 
 .publications-list {
+  --pub-number-width: 2.2em;
+  --pub-number-gap: 0.4em;
+
   h2 {
     font-size: $type-size-5;
     margin-bottom: 0.4em;
   }
 
   .archive__item-title {
+    display: flex;
+    align-items: baseline;
     font-size: $type-size-5;
     margin-top: 1.0em;
     margin-bottom: 0.2em;
@@ -17,10 +22,11 @@
 
   .archive__item-number {
     display: inline-block;
-    min-width: 2.2em;
-    margin-right: 0.4em;
+    min-width: var(--pub-number-width);
+    margin-right: var(--pub-number-gap);
     text-align: right;
     color: inherit;
+    flex: 0 0 var(--pub-number-width);
   }
 
   .archive__item-number::before {
@@ -36,6 +42,7 @@
     font-size: $type-size-5;
     margin: 0.15em 0;
     line-height: 1.35;
+    padding-left: calc(var(--pub-number-width) + var(--pub-number-gap));
   }
 
   /* tighter spacing for venue/excerpt/download lines */
