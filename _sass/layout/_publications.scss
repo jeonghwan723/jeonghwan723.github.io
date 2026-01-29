@@ -16,9 +16,18 @@
   }
 
   .archive__item-excerpt,
-  p {
+  .archive__item p {
     font-size: $type-size-6;
-    margin: 0.25em 0;
+    margin: 0.15em 0;
     line-height: 1.35;
+  }
+
+  /* tighter spacing for venue/excerpt/download lines */
+  .archive__item-excerpt {
+    margin-top: 0.1em;
+  }
+
+  .archive__item p + p {
+    margin-top: 0.1em;
   }
 }
