@@ -87,7 +87,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: '*: Corresponding author, †: These authors contributed equally'    
   conferences:
     title: 'Conference Papers'
 
