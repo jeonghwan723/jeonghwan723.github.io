@@ -3,7 +3,7 @@ title: "Partial-convolution-implemented generative adversarial network for globa
 collection: publications
 category: manuscripts
 permalink: /publication/paper010
-excerpt: 'Y. G. Ham, Y. S. Joo, <u><b>J. H. Kim</b></u>, J. G. Lee, Partial-convolution-implemented generative adversarial network for global oceanic data assimilation. <i>Nature Machine Intelligence</i> 6, 834-843 (2024) DOI: 10.1038/s42256-024-00867-x'
+excerpt: 'Y. G. Ham*, Y. S. Joo, <u><b>J. H. Kim</b></u>, J. G. Lee, Partial-convolution-implemented generative adversarial network for global oceanic data assimilation. <b><i>Nature Machine Intelligence</i></b> 6, 834-843 (2024) DOI: 10.1038/s42256-024-00867-x'
 date: 2024-07-22
 venue: 'Nature Machine Intelligence'
 paperurl: 'https://www.nature.com/articles/s42256-024-00867-x'

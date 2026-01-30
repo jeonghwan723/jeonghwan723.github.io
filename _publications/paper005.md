@@ -3,7 +3,7 @@ title: "Southern Indian Ocean Dipole as a trigger for Central Pacific El Niño s
 collection: publications
 category: manuscripts
 permalink: /publication/paper005
-excerpt: 'H. S. Jo, Y. G. Ham, J. S. Kug, T. Li, <u><b>J. H. Kim</b></u>, J. G. Kim, H. Kim, Southern Indian Ocean Dipole as a trigger for Central Pacific El Niño since the 2000s. <i>Nature Communications</i> 13 (2022)'
+excerpt: 'H. S. Jo, Y. G. Ham*, J. S. Kug, T. Li, <u><b>J. H. Kim</b></u>, J. G. Kim, H. Kim, Southern Indian Ocean Dipole as a trigger for Central Pacific El Niño since the 2000s. <b><i>Nature Communications</i></b> 13 (2022)'
 date: 2022-11-15
 venue: 'Nature Communications'
 paperurl: 'https://www.nature.com/articles/s41467-022-34721-8'

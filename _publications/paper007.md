@@ -3,7 +3,7 @@ title: "Exploring dominant processes for multi-month predictability of western P
 collection: publications
 category: manuscripts
 permalink: /publication/paper007
-excerpt: 'Y. M. Yang, <u><b>J. H. Kim</b></u>, J. H. Park, Y. G. Ham, S. I. An, J. Y. Lee, B. Wang, Exploring dominant processes for multi-month predictability of western Pacific precipitation using deep learning. <i>npj Climate and Atmospheric Science</i> 6, 157 (2023) DOI: 10.1038/s41612-023-00478-0'
+excerpt: 'Y. M. Yang, <u><b>J. H. Kim</b></u>, J. H. Park, Y. G. Ham, S. I. An*, J. Y. Lee*, B. Wang, Exploring dominant processes for multi-month predictability of western Pacific precipitation using deep learning. <b><i>npj Climate and Atmospheric Science</i></b> 6, 157 (2023) DOI: 10.1038/s41612-023-00478-0'
 date: 2023-09-30
 venue: 'npj Climate and Atmospheric Science'
 paperurl: 'https://www.nature.com/articles/s41612-023-00478-0'
