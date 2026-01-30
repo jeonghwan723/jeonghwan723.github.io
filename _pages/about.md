@@ -23,3 +23,11 @@ redirect_from:
 - Deep learning for climate prediction & projection
 - Climate variability, Climate change
 
+## Research Project Experience
+- <b>Mar 2025-Feb 2031: Principal Investigator [Sejong Science Fellowship]</b><br>Project Title: Development of a deep learning-based ocean-atmosphere coupled long-term prediction system<br>Supported by the National Research Foundation of Korea grant funded by the Korean Government (MSIT) (KRW ₩111,085,000≈USD $76,000)
+
+## Peer-Review Work
+- <i>Nature</i> [1], <i>Nature Geoscience</i> [1], <i>Nature Communications</i> [1], <i>Science Advances</i> [1], <i>Advances in Atmospheric Sciences</i> [1], <i>Communications Earth & Environment</i> [1], <i>npj Climate and Atmospheric Science</i> [1]
+
+## Visiting Experience
+- <b>Jan 2021–Feb 2021: Prof. Tim Li</b><br>University of Hawaii at Manoa, Hawaii, The United States of America
