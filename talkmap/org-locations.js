@@ -10,13 +10,13 @@ var addressPoints = [
     -0.1277653
   ],
   [
-    "Deep learning for global three-dimensional ocean modeling with physical response consistency<br />European Geosciences Union (EGU) 25 General Assembly; Vienna, Austria",
-    48.2083537,
-    16.3725042
-  ],
-  [
     "Convolutional networks for climate prediction<br />Yonsei University; Seoul, South Korea",
     37.5666791,
     126.9782914
+  ],
+  [
+    "Deep learning for global three-dimensional ocean modeling with physical response consistency<br />European Geosciences Union (EGU) 25 General Assembly; Vienna, Austria",
+    48.2083537,
+    16.3725042
   ]
 ];
