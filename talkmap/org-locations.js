@@ -1,13 +1,33 @@
 var addressPoints = [
   [
+    "Weather and climate research using AI<br />Jeonbuk National University; Jeonju, South Korea",
+    35.8237631,
+    127.1472805
+  ],
+  [
     "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
     34.0536909,
     -118.242766
   ],
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "Data-driven global ocean model resolving ocean-atmosphere coupling dynamics<br />Seoul National University; Seoul, South Korea",
+    37.5666791,
+    126.9782914
+  ],
+  [
+    "Tutorial for deep learning beginners<br />Korea Advanced Institute of Science and Technology (KAIST); Daejeon, South Korea",
+    36.3497007,
+    127.3849016
+  ],
+  [
+    "Convolutional networks for climate change detection and tropical cyclone intensity prediction<br />Pohang University of Science and Technology (POSTECH); Pohang, South Korea",
+    36.0189315,
+    129.3429384
+  ],
+  [
+    "Convolutional networks for climate change detection and tropical cyclone intensity prediction<br />Korea Institute of Science and Technology (KIST); Seoul, South Korea",
+    37.5666791,
+    126.9782914
   ],
   [
     "Convolutional networks for climate prediction<br />Yonsei University; Seoul, South Korea",
@@ -18,5 +38,15 @@ var addressPoints = [
     "Deep learning for global three-dimensional ocean modeling with physical response consistency<br />European Geosciences Union (EGU) 25 General Assembly; Vienna, Austria",
     48.2083537,
     16.3725042
+  ],
+  [
+    "Utilization of artificial intelligence for climate crisis response<br />Jeonbuk National University; Jeonju, South Korea",
+    35.8237631,
+    127.1472805
+  ],
+  [
+    "\ucd5c\uadfc \uc7a6\uc544\uc9c0\ub294 \uae30\uc0c1\uc774\ubcc0, \uae30\ud6c4\ubcc0\ud654 \ub54c\ubb38\uc77c\uae4c?<br />Chonnam National University; Gwangju, South Korea",
+    35.1594647,
+    126.8515034
   ]
 ];
