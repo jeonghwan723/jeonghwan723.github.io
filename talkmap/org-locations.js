@@ -10,13 +10,13 @@ var addressPoints = [
     -0.1277653
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Deep learning for global three-dimensional ocean modeling with physical response consistency<br />European Geosciences Union (EGU) 25 General Assembly; Vienna, Austria",
+    48.2083537,
+    16.3725042
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
+    "Convolutional networks for climate prediction<br />Yonsei University; Seoul, South Korea",
+    37.5666791,
+    126.9782914
   ]
 ];
