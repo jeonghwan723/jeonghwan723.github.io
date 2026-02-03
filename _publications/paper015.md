@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/paper015
 
-excerpt: 'J. J. Luo, J. Xia, B. Pan, ... <u><b>J. H. Kim</b></u>, ..., M. Zhao, AI for atmosphere-ocean sciences: advancements, challenges, and ways forward. <b><i>National Science Review</i></b> TBD (2026) DOI: 10.1093/nsr/nwag063'
+excerpt: 'J. J. Luo*, J. Xia*, B. Pan*, ... <u><b>J. H. Kim</b></u>, ..., M. Zhao, AI for atmosphere-ocean sciences: advancements, challenges, and ways forward. <b><i>National Science Review</i></b> TBD (2026) DOI: 10.1093/nsr/nwag063'
 date: 2026-01-29
 venue: 'National Science Review'
 paperurl: 'https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwag063/8444589'
