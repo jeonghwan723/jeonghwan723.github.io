@@ -3,7 +3,7 @@ title: "A super-resolution framework for downscaling machine learning weather pr
 collection: publications
 category: manuscripts
 permalink: /publication/paper014
-excerpt: 'H. Park, S. Park&*, D. Kang*, <u><b>J. H. Kim</b></u>, A super-resolution framework for downscaling machine learning weather prediction toward 1-km air temperature. <b><i>npj Climate and Atmospheric Science</i></b> TBD (2026) DOI: 10.1038/s41612-026-01328-5'
+excerpt: 'H. Park, S. Park*, D. Kang*, <u><b>J. H. Kim</b></u>, A super-resolution framework for downscaling machine learning weather prediction toward 1-km air temperature. <b><i>npj Climate and Atmospheric Science</i></b> TBD (2026) DOI: 10.1038/s41612-026-01328-5'
 date: 2026-01-26
 venue: 'npj Climate and Atmospheric Science'
 paperurl: 'https://www.nature.com/articles/s41612-026-01328-5#article-info'
