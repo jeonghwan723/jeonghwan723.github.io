@@ -5,11 +5,6 @@ var addressPoints = [
     127.1472805
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
-  ],
-  [
     "Data-driven global ocean model resolving ocean-atmosphere coupling dynamics<br />Seoul National University; Seoul, South Korea",
     37.5666791,
     126.9782914
