@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/paper016
 excerpt: '<u><b>J. H. Kim</b></u>\*, D. Kang\*, Y. M. Yang, J. H. Park, Y. G. Ham, Data-driven global ocean model resolving atmospherically forced ocean dynamics. <b><i>Science Advances, Accepted</i></b>'
-date: TBD
+date: 2026-04-20
 venue: 'Science Advances'
 paperurl: 'Coming soon'
 ---
