@@ -45,7 +45,6 @@ redirect_from:
 - <b>Deep learning for climate & weather prediction across timescales</b> — convolutional and attention-based models for ENSO, the MJO, and tropical cyclone rapid intensification, extending skillful prediction from weeks to years
 - <b>Data-driven Earth system modeling</b> — neural ocean general circulation models, ocean–atmosphere coupled emulators, and deep-learning data assimilation for global ocean reanalysis
 - <b>Detecting & understanding climate change</b> — explainable AI to identify anthropogenic fingerprints in the observed record and to uncover the physical mechanisms of climate variability
-- <b>Bridging AI and physics</b> — high-resolution downscaling and hybrid physics–AI modeling for reliable, mechanism-aware climate information
 
 <h2 class="about-section">Research Project Experience</h2>
 
