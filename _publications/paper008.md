@@ -3,7 +3,7 @@ title: "Improvement in Forecasting Short-Term Tropical Cyclone Intensity Change 
 collection: publications
 category: manuscripts
 permalink: /publication/paper008
-excerpt: '<u><b>J. H. Kim</b></u>, Y. G. Ham*, D. Kim, T. Li, C. Ma, Improvement in Forecasting Short-Term Tropical Cyclone Intensity Change and Their Rapid Intensification Using Deep Learning. <b><i>Artificial Intelligence for the Earth Systems</i></b> 3 (2024) DOI: 10.1175/AIES-D-23-0052.1'
+excerpt: '<u><b>J. H. Kim</b></u>, Y. G. Ham*, D. Kim, T. Li, C. Ma. <b><i>Artificial Intelligence for the Earth Systems</i></b>'
 date: 2024-04-25
 venue: 'Artificial Intelligence for the Earth Systems'
 paperurl: 'https://journals.ametsoc.org/view/journals/aies/3/2/AIES-D-23-0052.1.xml'

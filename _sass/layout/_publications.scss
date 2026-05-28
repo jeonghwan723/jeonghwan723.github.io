@@ -2,55 +2,96 @@
    PUBLICATIONS
    ========================================================================== */
 
-.publications-list {
-  --pub-number-width: 2.2em;
-  --pub-number-gap: 0.4em;
+/* Reference accent (Tailwind blue 600 / 700) */
+$pub-accent       : #2563eb;
+$pub-accent-dark  : #1d4ed8;
 
-  h2 {
-    font-size: $type-size-5;
-    margin-bottom: 0.4em;
+.publications-intro {
+  font-size: $type-size-5;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.3em;
+}
+
+.publications-legend {
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+  margin-bottom: 1.6em;
+}
+
+.publications-list {
+  .pub-year-group + .pub-year-group {
+    margin-top: 2.4em;
   }
 
-  .archive__item-title {
-    display: flex;
-    align-items: baseline;
-    font-size: $type-size-5;
-    margin-top: 1.2em;
-    margin-bottom: 0.2em;
+  .pub-year {
+    font-size: $type-size-4;
+    font-weight: 700;
+    color: $pub-accent-dark;
+    border-left: 4px solid $pub-accent;
+    padding-left: 0.6em;
+    margin: 0 0 0.9em;
     line-height: 1.2;
   }
 
-  .archive__item-number {
+  .pub-year-count {
+    font-size: $type-size-6;
+    font-weight: 400;
+    color: var(--global-text-color-light);
+    margin-left: 0.3em;
+  }
+
+  .pub-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pub-entry {
+    padding-left: 0.9em;
+    border-left: 2px solid var(--global-border-color);
+    transition: border-color 0.2s ease-in-out;
+  }
+
+  .pub-entry + .pub-entry {
+    margin-top: 1em;
+  }
+
+  .pub-entry:hover {
+    border-left-color: $pub-accent;
+  }
+
+  .pub-title {
     display: inline-block;
-    min-width: var(--pub-number-width);
-    margin-right: var(--pub-number-gap);
-    text-align: right;
-    color: inherit;
-    flex: 0 0 var(--pub-number-width);
-  }
-
-  .archive__item-number::before {
-    content: "[";
-  }
-
-  .archive__item-number::after {
-    content: "]";
-  }
-
-  .archive__item-excerpt,
-  .archive__item p {
     font-size: $type-size-5;
-    margin: 0.15em 0;
+    font-weight: 700;
     line-height: 1.35;
-    padding-left: calc(var(--pub-number-width) + var(--pub-number-gap));
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: $pub-accent;
+    }
   }
 
-  /* tighter spacing for venue/excerpt/download lines */
-  .archive__item-excerpt {
-    margin-top: 0.1em;
+  .pub-title--plain {
+    cursor: default;
   }
 
-  .archive__item p + p {
+  .pub-ext-icon {
+    font-size: 0.7em;
+    margin-left: 0.35em;
+    color: var(--global-text-color-light);
+    vertical-align: middle;
+  }
+
+  .pub-title:hover .pub-ext-icon {
+    color: $pub-accent;
+  }
+
+  .pub-meta {
+    font-size: $type-size-5;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
     margin-top: 0.1em;
   }
 }

@@ -3,7 +3,7 @@ title: "Deep Learning for Predicting Winter Temperature in North China"
 collection: publications
 category: manuscripts
 permalink: /publication/paper004
-excerpt: 'L. Gao, Y. M. Yang*, Q. Li, Y. G. Ham, J. H. Kim, Deep Learning for Predicting Winter Temperature in North China <b><i>Atmosphere</i></b> 13 (2024)'
+excerpt: 'L. Gao, Y. M. Yang*, Q. Li, Y. G. Ham, J. H. Kim. <b><i>Atmosphere</i></b>'
 date: 2022-04-28
 venue: 'Atmosphere'
 paperurl: 'https://www.mdpi.com/2073-4433/13/5/702'

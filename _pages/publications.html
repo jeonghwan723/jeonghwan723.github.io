@@ -5,25 +5,33 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<p><em>*: Corresponding author, &dagger;: These authors contributed equally</em></p>
-
 {% assign pub_total = site.publications | size %}
+
+<p class="publications-intro">{{ pub_total }} publications{% if site.author.googlescholar %} &middot; <a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}</p>
+
+<p class="publications-legend"><em>*: Corresponding author, &dagger;: These authors contributed equally</em></p>
+
 {% assign pubs_by_year = site.publications | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
 
 <div class="publications-list">
-{% assign running_index = pub_total %}
 {% for year_group in pubs_by_year %}
-  <h2>{{ year_group.name }} ({{ year_group.items | size }})</h2><hr />
-  {% assign year_items = year_group.items | sort: "date" | reverse %}
-  {% for post in year_items %}
-    {% include archive-single.html number=running_index %}
-    {% assign running_index = running_index | minus: 1 %}
-  {% endfor %}
+  <section class="pub-year-group">
+    <h2 class="pub-year">{{ year_group.name }} <span class="pub-year-count">({{ year_group.items | size }})</span></h2>
+    {% assign year_items = year_group.items | sort: "date" | reverse %}
+    <ol class="pub-list">
+    {% for post in year_items %}
+      <li class="pub-entry">
+        {% if post.paperurl contains '://' %}
+          <a class="pub-title" href="{{ post.paperurl }}">{{ post.title }}<i class="fa fa-external-link-alt pub-ext-icon" aria-hidden="true"></i></a>
+        {% else %}
+          <span class="pub-title pub-title--plain">{{ post.title }}</span>
+        {% endif %}
+        <div class="pub-meta">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+      </li>
+    {% endfor %}
+    </ol>
+  </section>
 {% endfor %}
 </div>

@@ -3,7 +3,7 @@ title: "Unified deep learning model for El Niño/Southern Oscillation forecasts 
 collection: publications
 category: manuscripts
 permalink: /publication/paper003
-excerpt: 'Y. G. Ham*, <u><b>J. H. Kim</b></u>, E. S. Kim, K. W. On, Unified deep learning model for El Niño/Southern Oscillation forecasts by incorporating seasonality in climate data. <b><i>Science Bulletin</i></b> 66 (2021)'
+excerpt: 'Y. G. Ham*, <u><b>J. H. Kim</b></u>, E. S. Kim, K. W. On. <b><i>Science Bulletin</i></b>'
 date: 2021-07-15
 venue: 'Science Bulletin'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2095927321002243'

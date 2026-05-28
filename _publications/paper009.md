@@ -3,7 +3,7 @@ title: "Machine Learning–Based Lightning Parameterizations for the CONUS"
 collection: publications
 category: manuscripts
 permalink: /publication/paper009
-excerpt: 'W. Y. Cheng, D. Kim*, S. Henderson, Y. G. Ham, <u><b>J. H. Kim</b></u>, R. Holzworth, Machine Learning–Based Lightning Parameterizations for the CONUS. <b><i>Artificial Intelligence for the Earth Systems</i></b> 3 (2024) DOI: 10.1175/AIES-D-23-0024.1'
+excerpt: 'W. Y. Cheng, D. Kim*, S. Henderson, Y. G. Ham, <u><b>J. H. Kim</b></u>, R. Holzworth. <b><i>Artificial Intelligence for the Earth Systems</i></b>'
 date: 2024-05-01
 venue: 'Artificial Intelligence for the Earth Systems'
 paperurl: 'https://journals.ametsoc.org/view/journals/aies/3/2/AIES-D-23-0024.1.xml'

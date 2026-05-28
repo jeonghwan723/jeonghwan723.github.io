@@ -3,7 +3,7 @@ title: "Application of Deep Learning to Understanding ENSO Dynamics"
 collection: publications
 category: manuscripts
 permalink: /publication/paper013
-excerpt: 'N. Y. Shin, Y. G. Ham, <u><b>J. H. Kim</b></u>, M. Cho, J. S. Kug*, Application of Deep Learning to Understanding ENSO Dynamics. <b><i>Artificial Intelligence for the Earth Systems</i></b> 1, e210011 (2022) DOI: 10.1175/AIES-D-21-0011.1'
+excerpt: 'N. Y. Shin, Y. G. Ham, <u><b>J. H. Kim</b></u>, M. Cho, J. S. Kug*. <b><i>Artificial Intelligence for the Earth Systems</i></b>'
 date: 2022-10-28
 venue: 'Artificial Intelligence for the Earth Systems'
 paperurl: 'https://journals.ametsoc.org/view/journals/aies/1/4/AIES-D-21-0011.1.xml'
