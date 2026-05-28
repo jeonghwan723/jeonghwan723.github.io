@@ -11,28 +11,19 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign pub_index = site.publications | size %}
+<p><em>*: Corresponding author, &dagger;: These authors contributed equally</em></p>
+
+{% assign pub_total = site.publications | size %}
+{% assign pubs_by_year = site.publications | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
+
 <div class="publications-list">
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html number=pub_index %}
-      {% assign pub_index = pub_index | minus: 1 %}
-    {% endfor %}
+{% assign running_index = pub_total %}
+{% for year_group in pubs_by_year %}
+  <h2>{{ year_group.name }} ({{ year_group.items | size }})</h2><hr />
+  {% assign year_items = year_group.items | sort: "date" | reverse %}
+  {% for post in year_items %}
+    {% include archive-single.html number=running_index %}
+    {% assign running_index = running_index | minus: 1 %}
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html number=pub_index %}
-    {% assign pub_index = pub_index | minus: 1 %}
-  {% endfor %}
-{% endif %}
+{% endfor %}
 </div>
