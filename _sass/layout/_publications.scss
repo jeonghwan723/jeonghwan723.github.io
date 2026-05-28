@@ -63,18 +63,18 @@ $pub-accent-dark  : #1d4ed8;
   height: 12px;
   border-radius: 50%;
   background: var(--global-bg-color);
-  border: 3px solid $pub-accent;
+  border: 3px solid #000;
 }
 
 .cv-period {
   display: block;
   font-weight: 700;
-  color: $pub-accent-dark;
+  color: #000;
 }
 
 .cv-detail {
   margin-top: 0.15em;
-  color: var(--global-text-color);
+  color: dimgray;
 }
 
 /* Shared list styling for the publications and talks pages */
