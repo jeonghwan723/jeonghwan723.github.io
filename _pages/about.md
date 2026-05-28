@@ -32,7 +32,7 @@ redirect_from:
 
 <h2 class="about-section">Peer-Review Work</h2>
 
-- <i>Nature</i> [1], <i>Nature Geoscience</i> [1], <i>Nature Communications</i> [1], <i>Science Advances</i> [1], <i>Advances in Atmospheric Sciences</i> [1], <i>Communications Earth & Environment</i> [1], <i>npj Climate and Atmospheric Science</i> [1]
+- <i>Nature</i> [1], <i>Nature Geoscience</i> [1], <i>Nature Communications</i> [1], <i>Science Advances</i> [2], <i>Advances in Atmospheric Sciences</i> [1], <i>Communications Earth & Environment</i> [1], <i>npj Climate and Atmospheric Science</i> [1]
 
 <h2 class="about-section">Visiting Experience</h2>
 
