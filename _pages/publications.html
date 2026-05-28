@@ -24,11 +24,14 @@ author_profile: true
     {% for post in year_items %}
       <li class="pub-entry">
         {% if post.paperurl contains '://' %}
-          <a class="pub-title" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+          <a class="pub-entry-link" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">
+            <span class="pub-title">{{ post.title }}</span>
+            <div class="pub-meta">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+          </a>
         {% else %}
           <span class="pub-title pub-title--plain">{{ post.title }}</span>
+          <div class="pub-meta">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</div>
         {% endif %}
-        <div class="pub-meta">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</div>
       </li>
     {% endfor %}
     </ol>
