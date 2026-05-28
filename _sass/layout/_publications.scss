@@ -8,7 +8,7 @@ $pub-accent-dark  : #1d4ed8;
 
 .publications-intro {
   font-size: $type-size-5;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   margin-bottom: 0.3em;
 
   a {
@@ -22,7 +22,7 @@ $pub-accent-dark  : #1d4ed8;
 
 .publications-legend {
   font-size: $type-size-6;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   margin-bottom: 1.6em;
 }
 
@@ -69,8 +69,8 @@ $pub-accent-dark  : #1d4ed8;
   }
 
   /* Highlight the whole row blue on hover, like the reference */
-  .pub-entry:hover a.pub-title,
-  .pub-entry:hover a.pub-title .pub-ext-icon {
+  .pub-entry:hover .pub-title,
+  .pub-entry:hover .pub-meta {
     color: $pub-accent;
   }
 
@@ -85,13 +85,6 @@ $pub-accent-dark  : #1d4ed8;
 
   .pub-title--plain {
     cursor: default;
-  }
-
-  .pub-ext-icon {
-    font-size: 0.7em;
-    margin-left: 0.7em;
-    color: var(--global-text-color-light);
-    vertical-align: middle;
   }
 
   .pub-meta {

@@ -24,7 +24,7 @@ author_profile: true
     {% for post in year_items %}
       <li class="pub-entry">
         {% if post.paperurl contains '://' %}
-          <a class="pub-title" href="{{ post.paperurl }}">{{ post.title }}<i class="fa fa-external-link-alt pub-ext-icon" aria-hidden="true"></i></a>
+          <a class="pub-title" href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
         {% else %}
           <span class="pub-title pub-title--plain">{{ post.title }}</span>
         {% endif %}
