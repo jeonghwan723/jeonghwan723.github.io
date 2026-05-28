@@ -5,12 +5,25 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% assign talk_total = site.talks | size %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<p class="publications-intro">{{ talk_total }} talks and presentations</p>
 
-{% endif %}
+{% assign talks_by_year = site.talks | group_by_exp: "talk", "talk.date | date: '%Y'" | sort: "name" | reverse %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<div class="talks-list">
+{% for year_group in talks_by_year %}
+  <section class="pub-year-group">
+    <h2 class="pub-year">{{ year_group.name }} <span class="pub-year-count">({{ year_group.items | size }})</span></h2>
+    {% assign year_items = year_group.items | sort: "date" | reverse %}
+    <ol class="pub-list">
+    {% for post in year_items %}
+      <li class="pub-entry">
+        <span class="pub-title pub-title--plain">{{ post.title }}</span>
+        <div class="pub-meta">{{ post.type }}, {{ post.venue }}, {{ post.location }} &middot; {{ post.date | date: '%B %d, %Y' }}</div>
+      </li>
+    {% endfor %}
+    </ol>
+  </section>
 {% endfor %}
+</div>

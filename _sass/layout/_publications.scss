@@ -26,7 +26,9 @@ $pub-accent-dark  : #1d4ed8;
   margin-bottom: 1.6em;
 }
 
-.publications-list {
+/* Shared list styling for the publications and talks pages */
+.publications-list,
+.talks-list {
   .pub-year-group + .pub-year-group {
     margin-top: 2.4em;
   }
@@ -57,21 +59,10 @@ $pub-accent-dark  : #1d4ed8;
   .pub-entry {
     padding-left: 0.9em;
     border-left: 2px solid var(--global-border-color);
-    transition: border-color 0.2s ease-in-out;
   }
 
   .pub-entry + .pub-entry {
     margin-top: 1em;
-  }
-
-  .pub-entry:hover {
-    border-left-color: $pub-accent;
-  }
-
-  /* Highlight the whole row blue on hover, like the reference */
-  .pub-entry:hover .pub-title,
-  .pub-entry:hover .pub-meta {
-    color: $pub-accent;
   }
 
   .pub-title {
@@ -92,5 +83,21 @@ $pub-accent-dark  : #1d4ed8;
     line-height: 1.5;
     color: dimgray;
     margin-top: 0.1em;
+  }
+}
+
+/* Publications-only: highlight the whole row blue on hover, like the reference */
+.publications-list {
+  .pub-entry {
+    transition: border-color 0.2s ease-in-out;
+  }
+
+  .pub-entry:hover {
+    border-left-color: $pub-accent;
+  }
+
+  .pub-entry:hover .pub-title,
+  .pub-entry:hover .pub-meta {
+    color: $pub-accent;
   }
 }
