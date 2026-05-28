@@ -89,7 +89,7 @@ $pub-accent-dark  : #1d4ed8;
 
   .pub-title {
     display: inline-block;
-    font-size: 0.875em;
+    font-size: $type-size-5;
     font-weight: 700;
     line-height: 1.35;
     color: var(--global-text-color);
@@ -101,7 +101,7 @@ $pub-accent-dark  : #1d4ed8;
   }
 
   .pub-meta {
-    font-size: 0.875em;
+    font-size: $type-size-5;
     line-height: 1.5;
     color: dimgray;
     margin-top: 0.1em;
