@@ -39,25 +39,24 @@ $pub-accent-dark  : #1d4ed8;
 
 /* About page CV timeline (research experience, education) */
 .cv-timeline {
-  position: relative;
   margin: 0.3em 0 0;
-  padding-left: 1.5em;
-  border-left: 2px solid var(--global-border-color);
 }
 
 .cv-item {
   position: relative;
-  padding-bottom: 1.2em;
+  border-left: 3px solid var(--global-border-color);
+  padding-left: 1.5em;
+  margin-bottom: 0.9em;
 }
 
 .cv-item:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .cv-item::before {
   content: "";
   position: absolute;
-  left: calc(-1.5em - 7px);
+  left: -7px;
   top: 0.4em;
   width: 12px;
   height: 12px;
@@ -109,7 +108,7 @@ $pub-accent-dark  : #1d4ed8;
 
   .pub-entry {
     padding-left: 0.9em;
-    border-left: 2px solid var(--global-border-color);
+    border-left: 3px solid var(--global-border-color);
   }
 
   .pub-entry + .pub-entry {
