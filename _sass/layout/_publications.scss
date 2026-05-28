@@ -43,26 +43,13 @@ $pub-accent-dark  : #1d4ed8;
 }
 
 .cv-item {
-  position: relative;
-  border-left: 3px solid gray;
+  border-left: 2.5px solid gray;
   padding-left: 1.5em;
   margin-bottom: 0.9em;
 }
 
 .cv-item:last-child {
   margin-bottom: 0;
-}
-
-.cv-item::before {
-  content: "";
-  position: absolute;
-  left: -7px;
-  top: 0.4em;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--global-bg-color);
-  border: 3px solid #000;
 }
 
 .cv-period {
@@ -108,7 +95,7 @@ $pub-accent-dark  : #1d4ed8;
 
   .pub-entry {
     padding-left: 0.9em;
-    border-left: 3px solid gray;
+    border-left: 2.5px solid gray;
   }
 
   .pub-entry + .pub-entry {

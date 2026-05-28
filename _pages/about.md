@@ -47,7 +47,12 @@ redirect_from:
 
 <h2 class="about-section">Research Project Experience</h2>
 
-- <b>Mar 2025-Feb 2031: Principal Investigator [Sejong Science Fellowship]</b><br>Project Title: Development of a deep learning-based ocean-atmosphere coupled long-term prediction system<br>Supported by the National Research Foundation of Korea grant funded by the Korean Government (MSIT) (KRW ₩111,085,000≈USD $76,000)
+<div class="cv-timeline">
+  <div class="cv-item">
+    <span class="cv-period">Mar 2025 – Feb 2031 · Principal Investigator [Sejong Science Fellowship]</span>
+    <div class="cv-detail">Project Title: Development of a deep learning-based ocean-atmosphere coupled long-term prediction system<br>Supported by the National Research Foundation of Korea grant funded by the Korean Government (MSIT) (KRW ₩111,085,000≈USD $76,000)</div>
+  </div>
+</div>
 
 <h2 class="about-section">Peer-Review Work</h2>
 
@@ -55,4 +60,9 @@ redirect_from:
 
 <h2 class="about-section">Visiting Experience</h2>
 
-- <b>Jan 2021–Feb 2021: Prof. Tim Li</b><br>University of Hawaii at Manoa, Hawaii, The United States of America
+<div class="cv-timeline">
+  <div class="cv-item">
+    <span class="cv-period">Jan 2021 – Feb 2021 · Prof. Tim Li</span>
+    <div class="cv-detail">University of Hawaii at Manoa, Hawaii, The United States of America</div>
+  </div>
+</div>
