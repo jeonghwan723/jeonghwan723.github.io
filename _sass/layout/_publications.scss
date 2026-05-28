@@ -44,7 +44,7 @@ $pub-accent-dark  : #1d4ed8;
 
 .cv-item {
   position: relative;
-  border-left: 3px solid var(--global-border-color);
+  border-left: 3px solid gray;
   padding-left: 1.5em;
   margin-bottom: 0.9em;
 }
@@ -108,7 +108,7 @@ $pub-accent-dark  : #1d4ed8;
 
   .pub-entry {
     padding-left: 0.9em;
-    border-left: 3px solid var(--global-border-color);
+    border-left: 3px solid gray;
   }
 
   .pub-entry + .pub-entry {
