@@ -58,7 +58,7 @@ $pub-accent-dark  : #1d4ed8;
   content: "";
   position: absolute;
   left: calc(-1.5em - 7px);
-  top: 0.45em;
+  top: 0.4em;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -160,6 +160,16 @@ $pub-accent-dark  : #1d4ed8;
 
   .pub-entry:hover .pub-title,
   .pub-entry:hover .pub-meta {
+    color: $pub-accent;
+  }
+
+  /* Author's own name stays black (turns blue with the row on hover) */
+  .pub-meta u {
+    color: #000;
+    border-bottom-color: currentColor;
+  }
+
+  .pub-entry:hover .pub-meta u {
     color: $pub-accent;
   }
 }
