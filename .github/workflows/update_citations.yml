@@ -1,0 +1,34 @@
+name: Update Citation Counts
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # weekly, Monday 03:00 UTC
+  workflow_dispatch:        # allow manual runs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # this workflow pushes to the repository
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: pip install requests pyyaml
+
+    - name: Update citation counts
+      run: python scripts/update_citations.py
+
+    - name: Commit changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add _data/citations.yml
+        git commit -m "Automated update of citation counts" || echo "No changes to commit"
+        git push

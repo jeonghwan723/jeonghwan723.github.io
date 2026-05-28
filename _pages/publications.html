@@ -9,7 +9,7 @@ author_profile: true
 
 {% assign pub_total = site.publications | size %}
 
-<p class="publications-intro">{{ pub_total }} publications{% if site.author.googlescholar %} &middot; <a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}</p>
+<p class="publications-intro">{{ pub_total }} publications{% if site.data.citations.total %} &middot; <span title="Total citations via {{ site.data.citations.source }}, updated {{ site.data.citations.updated }}">{{ site.data.citations.total }} citations</span>{% endif %}{% if site.author.googlescholar %} &middot; <a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}</p>
 
 <p class="publications-legend"><em>*: Corresponding author, &dagger;: These authors contributed equally</em></p>
 
