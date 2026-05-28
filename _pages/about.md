@@ -11,15 +11,34 @@ redirect_from:
 
 <h2 class="about-section">Research Experience</h2>
 
-- <b>March 2024 - present</b>: Postdoctoral Researcher<br>Center for Climate and Carbon Cycle Research, Korea Institute of Science and Technology<br>Supervisor: Dr. Daehyun Kang
-- <b>March 2023 - February 2024</b>: Postdoctoral Researcher<br>Faculty of Earth System and Environmental Science, Chonnam National University<br>Supervisor: Prof. Yoo-Geun Ham
+<div class="cv-timeline">
+  <div class="cv-item">
+    <span class="cv-period">March 2024 – present</span>
+    <div class="cv-detail">Postdoctoral Researcher<br>Center for Climate and Carbon Cycle Research, Korea Institute of Science and Technology<br>Supervisor: Dr. Daehyun Kang</div>
+  </div>
+  <div class="cv-item">
+    <span class="cv-period">March 2023 – February 2024</span>
+    <div class="cv-detail">Postdoctoral Researcher<br>Faculty of Earth System and Environmental Science, Chonnam National University<br>Supervisor: Prof. Yoo-Geun Ham</div>
+  </div>
+</div>
 
 
 <h2 class="about-section">Education</h2>
 
-- <b>2018-2023: Ph.D. in Oceanography</b><br><i>Chonnam National University</i>, Gwangju, South Korea<br>Thesis: Convolutional networks for climate projections and tropical variability prediction<br>Advisor: Prof. Yoo-Geun Ham
-- <b>2016-2018: M. Sc. in Oceanography</b><br><i>Chonnam National University</i>, Gwangju, South Korea<br>Thesis: Development of the ENSO prediction system using convolutional neural network<br>Advisor: Prof. Yoo-Geun Ham
-- <b>2010-2016: B. S. in Earth Systems and Environmental Sciences</b><br><i>Chonnam National University</i>, Gwangju, South Korea<br>Thesis: Study on the relationship between diatom blooms and large-scale climate patterns<br>Advisor: Prof. Yoo-Geun Ham<br>*Served R.O.K. Army from August 2011 to May 2013
+<div class="cv-timeline">
+  <div class="cv-item">
+    <span class="cv-period">2018 – 2023 · Ph.D. in Oceanography</span>
+    <div class="cv-detail"><i>Chonnam National University</i>, Gwangju, South Korea<br>Thesis: Convolutional networks for climate projections and tropical variability prediction<br>Advisor: Prof. Yoo-Geun Ham</div>
+  </div>
+  <div class="cv-item">
+    <span class="cv-period">2016 – 2018 · M. Sc. in Oceanography</span>
+    <div class="cv-detail"><i>Chonnam National University</i>, Gwangju, South Korea<br>Thesis: Development of the ENSO prediction system using convolutional neural network<br>Advisor: Prof. Yoo-Geun Ham</div>
+  </div>
+  <div class="cv-item">
+    <span class="cv-period">2010 – 2016 · B. S. in Earth Systems and Environmental Sciences</span>
+    <div class="cv-detail"><i>Chonnam National University</i>, Gwangju, South Korea<br>Thesis: Study on the relationship between diatom blooms and large-scale climate patterns<br>Advisor: Prof. Yoo-Geun Ham<br>*Served R.O.K. Army from August 2011 to May 2013</div>
+  </div>
+</div>
 
 <h2 class="about-section">Research Interest</h2>
 

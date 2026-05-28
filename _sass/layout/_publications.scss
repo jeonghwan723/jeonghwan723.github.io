@@ -37,6 +37,46 @@ $pub-accent-dark  : #1d4ed8;
   line-height: 1.2;
 }
 
+/* About page CV timeline (research experience, education) */
+.cv-timeline {
+  position: relative;
+  margin: 0.3em 0 0;
+  padding-left: 1.5em;
+  border-left: 2px solid var(--global-border-color);
+}
+
+.cv-item {
+  position: relative;
+  padding-bottom: 1.2em;
+}
+
+.cv-item:last-child {
+  padding-bottom: 0;
+}
+
+.cv-item::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.5em - 7px);
+  top: 0.3em;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--global-bg-color);
+  border: 3px solid $pub-accent;
+}
+
+.cv-period {
+  display: block;
+  font-weight: 700;
+  color: $pub-accent-dark;
+}
+
+.cv-detail {
+  margin-top: 0.15em;
+  color: var(--global-text-color);
+}
+
 /* Shared list styling for the publications and talks pages */
 .publications-list,
 .talks-list {
