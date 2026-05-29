@@ -51,7 +51,7 @@ redirect_from:
 <div class="cv-timeline">
   <div class="cv-item">
     <span class="cv-period">Mar 2025 – Feb 2031 · Principal Investigator [Sejong Science Fellowship]</span>
-    <div class="cv-detail">Project Title: Development of a deep learning-based ocean-atmosphere coupled long-term prediction system<br>Supported by the National Research Foundation of Korea grant funded by the Korean Government (MSIT) (KRW ₩111,085,000≈USD $76,000)</div>
+    <div class="cv-detail">Project Title: Development of a deep learning-based ocean-atmosphere coupled long-term prediction system<br>Supported by the National Research Foundation of Korea grant funded by the Korean Government (MSIT) (KRW ₩555,425,000≈USD $380,000)</div>
   </div>
 </div>
 
