@@ -3,7 +3,7 @@ title: "Anthropogenic fingerprints in daily precipitation revealed by deep learn
 collection: publications
 category: manuscripts
 permalink: /publication/paper006
-excerpt: 'Y. G. Ham\*†, <u><b>J. H. Kim</b></u>†, S. K. Min\*, D. Kim, T. Li, A. Timmermann, M. Stuecker. <b><i>Nature</i></b>'
+excerpt: 'Y. G. Ham\*†, <u><b>J. H. Kim†</b></u>, S. K. Min\*, D. Kim, T. Li, A. Timmermann, M. Stuecker. <b><i>Nature</i></b>'
 date: 2023-08-30
 venue: 'Nature'
 paperurl: 'https://www.nature.com/articles/s41586-023-06474-x'
