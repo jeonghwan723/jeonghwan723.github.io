@@ -1,0 +1,37 @@
+media:
+  input: images/posts
+  output: /images/posts
+
+content:
+  - name: posts
+    label: Board
+    type: collection
+    path: _posts
+    # Jekyll requires posts to be named YYYY-MM-DD-title.md
+    filename: '{year}-{month}-{day}-{fields.title}.md'
+    view:
+      primary: title
+      fields:
+        - title
+        - date
+      sort:
+        - date
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: false
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: body
+        label: Body
+        type: rich-text
