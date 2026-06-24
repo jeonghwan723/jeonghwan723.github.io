@@ -63,9 +63,10 @@ $pub-accent-dark  : #1d4ed8;
   color: dimgray;
 }
 
-/* Shared list styling for the publications and talks pages */
+/* Shared list styling for the publications, talks, and board pages */
 .publications-list,
-.talks-list {
+.talks-list,
+.board-list {
   .pub-year-group + .pub-year-group {
     margin-top: 2.4em;
   }
@@ -134,8 +135,9 @@ $pub-accent-dark  : #1d4ed8;
   }
 }
 
-/* Publications-only: highlight the whole row blue on hover, like the reference */
-.publications-list {
+/* Linked lists (publications, board): highlight the whole row blue on hover */
+.publications-list,
+.board-list {
   .pub-entry {
     transition: border-color 0.2s ease-in-out;
   }
@@ -148,8 +150,10 @@ $pub-accent-dark  : #1d4ed8;
   .pub-entry:hover .pub-meta {
     color: $pub-accent;
   }
+}
 
-  /* Author's own name stays black (turns blue with the row on hover) */
+/* Publications-only: author's own name stays black (turns blue with the row on hover) */
+.publications-list {
   .pub-meta u {
     color: #000;
     border-bottom-color: currentColor;

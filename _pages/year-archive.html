@@ -8,12 +8,33 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
+
+{% assign post_total = site.posts | size %}
+
+{% if post_total == 0 %}
+  <p class="publications-intro">No posts yet.</p>
+{% else %}
+
+<p class="publications-intro">{{ post_total }} post{% if post_total != 1 %}s{% endif %}</p>
+
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+<div class="board-list">
+{% for year_group in posts_by_year %}
+  <section class="pub-year-group">
+    <h2 class="pub-year">{{ year_group.name }} <span class="pub-year-count">({{ year_group.items | size }})</span></h2>
+    <ol class="pub-list">
+    {% for post in year_group.items %}
+      <li class="pub-entry">
+        <a class="pub-entry-link" href="{{ base_path }}{{ post.url }}">
+          <span class="pub-title">{{ post.title }}</span>
+          <div class="pub-meta">{{ post.date | date: '%B %d, %Y' }}{% if post.tags.size > 0 %} &middot; {{ post.tags | join: ', ' }}{% endif %}</div>
+        </a>
+      </li>
+    {% endfor %}
+    </ol>
+  </section>
 {% endfor %}
+</div>
+
+{% endif %}
