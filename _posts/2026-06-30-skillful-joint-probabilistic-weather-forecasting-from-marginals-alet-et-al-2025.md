@@ -43,7 +43,7 @@ FGN은 불확실성을 두 종류로 깔끔하게 분리한다.
 
 ### Epistemic uncertainty — deep ensemble
 
-모델 자체에 대한 불확실성(유한한 데이터·불완전한 학습)이다. 정공법인 deep ensemble로 처리한다. 독립적으로 초기화·학습한 모델 $J=4$ 개를 두고, 각 모델이 앙상블 멤버의 일부를 생성한다. 베이즈 사후예측분포
+모델 자체에 대한 불확실성(유한한 데이터·불완전한 학습)이다. 이는 deep ensemble(혹은 random seed ensemble)로 처리한다. 독립적으로 초기화·학습한 모델 $J=4$ 개를 두고, 각 모델이 앙상블 멤버의 일부를 생성한다. 베이즈 사후예측분포
 
 $$  
 p(X^{1:T}\mid X^{\leq 0}, \mathcal{D}) = \int p(X^{1:T}\mid X^{\leq 0}, \mathcal{M}),p(\mathcal{M}\mid\mathcal{D}),d\mathcal{M}  
