@@ -42,9 +42,10 @@ redirect_from:
 
 <h2 class="about-section">Research Interest</h2>
 
-- Deep learning for climate & weather prediction across timescales
-- Data-driven Earth system modeling
-- Detecting & understanding climate change
+- AI-based Earth system modeling
+- Ocean–atmosphere and land–atmosphere interactions in climate variability
+- Subseasonal-to-multiyear prediction and predictability
+- Climate change detection, attribution, and extremes
 
 <h2 class="about-section">Research Project Experience</h2>
 
